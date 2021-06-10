@@ -2,7 +2,7 @@ name: Actions to take on pushes to main
 on:
   push:
     branches:
-    - main
+    - test-automation
 jobs:
   job:
     continue-on-error: true

@@ -26,8 +26,8 @@ jobs:
             -pypi_versions pypi_versions.json \
             -out_dir vulns \
             -without_notes
-        git config user.name github-actions
-        git config user.email github-actions@github.com
+        git config user.name auto-importer
+        git config user.email auto-importer@auto-importer
         git add vulns
         git diff --cached
       env:
